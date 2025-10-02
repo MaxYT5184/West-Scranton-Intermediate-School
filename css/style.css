@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFFFF;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0033A0;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo {
+  height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Banner */
+.hero {
+  background: url('../assets/banner.jpg') center/cover no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 51, 160, 0.6);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
